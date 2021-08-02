@@ -1,0 +1,3 @@
+[submodule "m5stack/inspiration/m5stack-programs"]
+	path = m5stack/inspiration/m5stack-programs
+	url = https://github.com/jcarolinares/M5stack-programs
