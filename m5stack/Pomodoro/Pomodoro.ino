@@ -1,17 +1,7 @@
 /**
 
-  M5 Stack OFFICE TOOL
-  Free-BUSY Indicator
-  Lunch Indicator
-  Pomodoro timer
-
-  Made by Julián Caro Linares
-  jcarolinares@gmail.com
-  @jcarolinares
-
-  CC-BY-SA
-
   Acknowledgments and Attributions
+  Based on project by Julián Caro Linares on repo jcarolinares/M5stack-programs
   The LED bar control is based on the code done by G4lileo on the projectp
   ESP32-WiFi-Hash-Monster: https://github.com/G4lile0/ESP32-WiFi-Hash-Monster
 
