@@ -10,22 +10,22 @@ app = {                # REQUIRED dict, must be named 'app'
     'macros' : [       # List of button macros...
         # COLOR    LABEL    KEY SEQUENCE
         # 1st row ----------
-        (0x004000, 'Cite', [Keycode.COMMAND, Keycode.OPTION, 'c']),
-        (0x004000, '', '', False),
-        (0x400000, 'Paste', [Keycode.COMMAND, Keycode.OPTION, Keycode.CONTROL, 'v']),      # Scroll up
+        (0x004000, '', '','', False),
+        (0x004000, '', '', '', False),
+        (0x400000, 'Paste', 'KC', [Keycode.COMMAND, Keycode.OPTION, Keycode.CONTROL, 'v']),      # Scroll up
         # 2nd row ----------
-        (0x202000, 'Next', [ConsumerControlCode.SCAN_NEXT_TRACK]),
-        (0x202000, 'Vol -', [ConsumerControlCode.VOLUME_DECREMENT]),
-        (0x400000, 'Vol +', [ConsumerControlCode.VOLUME_INCREMENT]),                     # Scroll down
+        (0x202000, 'Cite', 'KC', [Keycode.COMMAND, Keycode.OPTION, 'c']),
+        (0x202000, 'Foot', 'KC', [Keycode.CONTROL, Keycode.SHIFT, Keycode.COMMAND, 'f']),
+        (0x400000, 'Margin', 'KC', [Keycode.COMMAND, Keycode.OPTION, Keycode.CONTROL, 'n']),                     # Scroll down
         # 3rd row ----------
-        (0x000040, 'Label', [Keycode.COMMAND, Keycode.OPTION, Keycode.CONTROL, 'x']),
-        (0x000040, 'CrossRef', [Keycode.COMMAND, Keycode.OPTION, Keycode.CONTROL, 'i']),
-        (0x000040, 'Latex', [Keycode.COMMAND, 'l'], False),
+        (0x000040, 'Label', 'KC', [Keycode.COMMAND, Keycode.OPTION, Keycode.CONTROL, 'x']),
+        (0x000040, 'CrossRef', 'KC', [Keycode.COMMAND, Keycode.OPTION, Keycode.CONTROL, 'i']),
+        (0x000040, 'Latex', 'KC', [Keycode.COMMAND, 'l'], False),
         # 4th row ----------
-        (0x101010, 'View', [Keycode.COMMAND, 'r']),   
-        (0x101010, 'Save', [Keycode.COMMAND, 's']),   
-        (0x101010, 'Export', [Keycode.COMMAND, Keycode.OPTION, 'e']), 
+        (0x101010, 'View', 'KC', [Keycode.COMMAND, 'r']),   
+        (0x101010, 'Master', 'KC', [Keycode.COMMAND, Keycode.OPTION, Keycode.CONTROL, 'r']),   
+        (0x101010, 'Export', 'KC', [Keycode.COMMAND, Keycode.OPTION, 'e']), 
         # Encoder button ---
-        (0x202000, 'Play', [ConsumerControlCode.PLAY_PAUSE]) # Close window/tab
+        (0x202000, 'Play', 'CC', [ConsumerControlCode.PLAY_PAUSE]) # Close window/tab
     ]
 }
