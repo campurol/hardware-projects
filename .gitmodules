@@ -1,3 +1,6 @@
 [submodule "m5stack/inspiration/m5stack-programs"]
 	path = m5stack/inspiration/m5stack-programs
 	url = https://github.com/jcarolinares/M5stack-programs
+[submodule "koreader/koreader-sync"]
+	path = koreader/koreader-sync
+	url = https://github.com/b1n4ryj4n/koreader-sync
